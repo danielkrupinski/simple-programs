@@ -2,16 +2,11 @@
 
 using namespace std;
 
-
 int main()
 {
-    system("chcp 1250");
-    system("cls");
-    cout << "Podaj liczbę: ";
+    cout << "Podaj liczbe: ";
     int number;
     cin >> number;
-    number % 2 == 0 ? cout << "Liczba jest parzysta." : cout << "Liczba jest nieparzysta.";
-    cin.ignore();
-    getchar();
+    !(number & 1) ? cout << "Liczba jest parzysta." : cout << "Liczba jest nieparzysta.";
     return 0;
 }

@@ -14,6 +14,6 @@ int main()
             if (a > 0)
                 cout << "Liczba " << a << " jest dodatnia.\n";
             else cout << "Liczba " << a << " jest ujemna.\n";
-        else cout << "Liczba " << a << " jest równa 0.\n";
+        else cout << "Liczba " << a << " jest rowna 0.\n";
     return 0;
 }
